@@ -62,10 +62,6 @@ After importing the environment, there are different functions available in the 
     This will take list of actions and perform that action along with providing required information of states..
 - `env.moveVC()`<br>
     This will move the joints to a specified position by taking the index of that joint.
-- `env.roll_dice()`<br>
-    This will simulate the rolling of the dice and will give the next shape and colour to which the car shall have to move.
-- `env.move_husky()`<br>
-    This will be used to give the motor velocity to each wheel individually of the car.
 - `env.reset()`<br> 
     This will reset the whole environment and gives the information regarding the state.
 
