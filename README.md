@@ -6,7 +6,7 @@ This environment is made by our team from **Robotics-Club** of IIT BHU to tackle
 <h3 align=center> (SMA) Simultaneous Multitasking Agent</h3>
 <p align = 'center'>
 <img width="700" height="300" src="media/env.png"><br>
-<\p>
+</p>
 
 Baxter was an industrial humanoid robot built by [Rethink Robotics](https://www.rethinkrobotics.com/).We used it in our environment to get a good idea of how the huamnoid agent will behave when left in the same scenario as that of a human.For more info on baxter visit [this]()
 
