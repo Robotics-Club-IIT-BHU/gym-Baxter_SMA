@@ -34,7 +34,7 @@ We have divided our work into several steps which we want to achieve one by one.
 - Deep Reinforcement Learning 
 
 ## 1.3. Work done
-A custom gym environment is Created whose snapshots are shown below.
+A custom gym environment is created whose snapshots are shown below.
 
 install the environment using `pip install -e baxter-env`
 
