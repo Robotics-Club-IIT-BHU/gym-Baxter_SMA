@@ -1,6 +1,8 @@
 <h1 align=center> Baxter Environment </h1>
 <h3 align=center> Simultaneous Multitasking Agent</h3>
 
+<img src="media/env.png">
+
 ### 1.0.1. Aim
 
 To train an end to end agent which mimics human behaviour of doing **multiple tasks simultaneously** using a single image frame.
@@ -11,7 +13,7 @@ To train an end to end agent which mimics human behaviour of doing **multiple ta
 <p align=left>Humans have a very good efficiency of managing different things simultaneously using both hands. Hence, we want to explore how the <b>Reinforcement Learning</b> Algorithms are trying to achieve this task in comparison to humans because this a very difficult task for a robot to address using some classical techniques and achieve human level awareness of environment.</p>
 
 <p align="center" align=right>
- <img  width="300" align=right src="media/sponge-bob.gif">
+<!--  <img  width="300" align=right src="media/sponge-bob.gif"> -->
 </p>
 
 ## 1.1. Initial plannings
@@ -23,6 +25,7 @@ We have divided our work into several steps which we want to achieve one by one.
 - [ ] Increase task complexity
 - [ ] Increase interaction complexity
 
+<img width="700" src="media/mdp.png">
 
 ## 1.2. Initial Tools and stuffs
 - PyBullet base environment
@@ -35,13 +38,10 @@ A custom gym environment is Created whose snapshots are shown below.
 
 install the environment using `pip install -e baxter-env`
 
-
 After that use few lines to import it in your workspace
 
 ``` python
 import gym
-import pybullet
-import cv2
 import baxter_env
 
 env = gym.make('baxter_env-v0')
@@ -51,6 +51,7 @@ env.top_view()
 
 <p float=left>
  <img  width="245" src="media/baxter.png">
+ <img width="360" src="media/baxter.gif">
  <img  width="200" src="media/top-view.png">
 </p>
 
