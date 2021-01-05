@@ -25,7 +25,7 @@ We have divided our work into several steps which we want to achieve one by one.
 - [ ] Increase task complexity
 - [ ] Increase interaction complexity
 
-<img width="700" src="media/mdp.png">
+<img src="media/mdp.png">
 
 ## 1.2. Initial Tools and stuffs
 - PyBullet base environment
