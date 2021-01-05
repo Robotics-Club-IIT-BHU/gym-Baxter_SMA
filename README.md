@@ -10,7 +10,7 @@ This environment is made by our team from **Robotics-Club** of IIT BHU to tackle
 
 Baxter was an industrial humanoid robot built by [Rethink Robotics](https://www.rethinkrobotics.com/).We used it in our environment to get a good idea of how the huamnoid agent will behave when left in the same scenario as that of a human.For more info on baxter visit [this]()
 
-<p>
+<p align = 'center'>
 <img width="300" height="300" src="media/baxter.png">
 <img width="300" height="300" src="media/baxter_desc.png">
 <h4 align='center'><b>Baxter</b></h4>
@@ -69,7 +69,7 @@ After importing the environment, there are different functions available in the 
 - `env.reset()`<br> 
     This will reset the whole environment and gives the information regarding the state.
 
-<p float=left>
+<p align = 'center'>
  <img width="360" src="media/baxter.gif">
  <img  width="200" src="media/top-view.png">
 </p>
