@@ -8,7 +8,7 @@ This environment is made by our team from **Robotics-Club** of IIT BHU to tackle
 
 Baxter was an industrial humanoid robot built by [Rethink Robotics](https://www.rethinkrobotics.com/). We used it in our environment to get a good idea of how the humanoid agent will behave when left in the same scenario as that of a human.For more info on baxter visit [this](https://www.ohio.edu/mechanical-faculty/williams/html/pdf/BaxterKinematics.pdf)
 <br>
-<p>
+<p align = 'center'>
 <img width="327" height="300" src="media/baxter.png">
 <img width="327" height="300" src="media/baxter_desc.png">
 </p>
