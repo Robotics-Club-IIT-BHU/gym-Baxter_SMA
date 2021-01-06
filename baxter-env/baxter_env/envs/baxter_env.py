@@ -149,7 +149,7 @@ class BaxterEnv(gym.Env):
         Argumets:
             None
         Returns:
-            Image
+            RGB Image of shape: (128,128,3)
         """
         img, _ = self.getImage()
         
@@ -162,7 +162,7 @@ class BaxterEnv(gym.Env):
         Arguments:
             None
         Returns:
-            Image
+            Tuple of RGB Image (128,128,3) and Depth Image (128,128)
         """
         
         cam_info = p.getLinkState(self.baxter, 7)
