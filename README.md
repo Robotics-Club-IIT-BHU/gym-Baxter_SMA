@@ -4,16 +4,13 @@
 This environment is made by our team from **Robotics-Club** of IIT BHU to tackle an open challenge in the field of robotics, which is *Simultaneous work*. Generally, Humans have a good efficiency in managing different things simultaneously using both hands. Hence, we want to explore how the <b>Reinforcement Learning</b> Algorithms are trying to achieve this task comparable to humans or even better. For this purpose **Baxter** humanoid robot is used as the Agent. It is a gym compatible environment made using simulator [PyBullet](https://pybullet.org/)<br>
 
 <h3 align=center> (SMA) Simultaneous Multitasking Agent</h3>
-<p align = 'center'>
-<img width="700" height="400" src="media/env.png"><br>
-</p>
+<img width="700" height="300" src="media/env.png"><br>
 
 Baxter was an industrial humanoid robot built by [Rethink Robotics](https://www.rethinkrobotics.com/). We used it in our environment to get a good idea of how the humanoid agent will behave when left in the same scenario as that of a human.For more info on baxter visit [this](https://www.ohio.edu/mechanical-faculty/williams/html/pdf/BaxterKinematics.pdf)
 <br>
-<p align = 'center'>
+<p align= 'center'>
 <img width="327" height="300" src="media/baxter.png">
 <img width="327" height="300" src="media/baxter_desc.png">
-<h4 align = 'center'><b>Baxter</b></h4>
 </p>
 
 ## Initial plannings
@@ -30,12 +27,12 @@ We made the required environment with aiming some basic works like simultaneous 
 ##  **Installation Guidelines**
 Anyone who want to conribute to this repo or want to modify it, will fork the repo and can create pull requests. One can also take this environment as a ready made setup for aiming the same challenges.
 ### Dependencies
-- python3
-- pybullet
+- Python3
+- PyBullet
 - gym
-- opencv
+- OpenCV
 - numpy
-- matplotlib
+- Matplotlib
 
 After cloning the repo run following commands to quickly done with the required setup
 
@@ -54,34 +51,40 @@ env = gym.make('baxter_env-v0')
 
 <h2>Functions in our environment</h2>
 
-After importing the environment, there are different functions available in the environment which can be used for various purposes, some of the important ones is listed below, for more details on the functions and arguments, you can see [here]()
+After importing the environment, there are different functions available in the environment which can be used for various purposes, some of the important ones is listed below, for more details on the functions and arguments, you can see [here](baxter-env/baxter_env/envs/baxter_env.py)
 
 - `env.getImage()`<br>
-    This will return an RGB image of the environment along with the depth map from baxter's eye view.
+    This will return a tuple containing 128x128 RGB image along with the depth map of the environment from baxter's eye view.
 - `env.step()`<br>
     This will take list of actions and perform that action along with providing required information of states..
 - `env.moveVC()`<br>
     This will move the joints to a specified position by taking the index of that joint.
-<<<<<<< HEAD
 - `env.render()`<br>
     Function to render the eye view image of the environment.
 - `env.reset()`<br> 
     This will reset the whole environment and gives the information regarding the state.
 
-There are other functions also which we have made for our purpose like 
+There are other functions also which we have made four our purpose like 
 - `env.BeizerCurve()`<br> 
     This is an implementation of a family of curves which gives a trajectory passing through some points on the basis of some weights.
 - `env.getReward()`<br>
--   This will return the reward for trying simultaneous touching     (naive implementation, working on making it better).
-  
+    This will return the reward for trying simultaneous touching     (naive implementation, working on making it better).
+
+Some implementation related to these functions are available [here](examples/)
+
 <h2 align = 'center'>Snapshots</h2>
 <p align='center'>
 Few images and gifs of our environment and robot in action using some classical techniques.<br>
- <img width="360" src="media/baxter.gif">
+ <img width="1000" src="media/baxter.gif">
+ <img height="300" width="300" src="media/image_data.png">
+ <img  height="300" width="300" src="media/depth_data.png"><br>
+<b>Image data with depth map</b><br>
 </p>
 
 ## References 
 - [Pybullet URDFs](https://github.com/erwincoumans/pybullet_robots)
+- [Baxter](https://www.ohio.edu/mechanical-faculty/williams/html/pdf/BaxterKinematics.pdf)
+- [Bezier Curves Visualisation](https://www.desmos.com/calculator/kiqc4acwwk)
 
 ## **Makers and Maintainers**
 

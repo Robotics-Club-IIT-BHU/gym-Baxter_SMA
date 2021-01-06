@@ -145,7 +145,7 @@ class BaxterEnv(gym.Env):
     def render(self):
         
         """
-        Function to render top view image of the Environment
+        Function to render eye view image of the Environment
         Argumets:
             None
         Returns:
@@ -187,46 +187,6 @@ class BaxterEnv(gym.Env):
         image = np.array(self.image_info[2]).reshape((self.height, self.width, 4))
         image = image[:, :, [0, 1, 2]]
         image = image.astype("uint8")
-        image = cv2.cvtColor(image, cv2.COLOR_RGB2BGR)
-        
-        depth_buffer_tiny = np.reshape(self.image_info[3], [self.width, self.height])
-        depth_tiny = self.far * self.near / (self.far - (self.far - self.near) * depth_buffer_tiny)
-        depth_tiny = depth_tiny.astype("float32")
-
-        return image, depth_tiny
-
-    def getImageUD(self):
-        
-        """
-        Function to extract top view image of environemnt
-        Arguments:
-            None
-        Returns:
-            Image
-        """
-        self.var = 3
-        
-        eye_pos = [self.table_pos[0], self.table_pos[1], self.table_pos[2]+2]
-        target_pos = [self.table_pos[0], self.table_pos[1], self.table_pos[2]+0.5]
-        
-        upvec = [1, 0, 0]
-        
-        self.view_matrix= p.computeViewMatrix(eye_pos, target_pos, upvec)
-        self.width = 128
-        self.height = 128
-        self.fov = 60
-        self.aspect_ratio = self.width/self.height
-        self.near = 0.1
-        
-        self.far = self.var
-        self.projection_matrix = p.computeProjectionMatrixFOV(self.fov, self.aspect_ratio, self.near, self.far)
-        self.image_info = p.getCameraImage(self.width, self.height, self.view_matrix, self.projection_matrix, 
-                                           shadow = True, renderer = self.render_mode)
-        
-        image = np.array(self.image_info[2]).reshape((self.height, self.width, 4))
-        image = image[:, :, [0, 1, 2]]
-        image = image.astype("uint8")
-        # image = cv2.cvtColor(image, cv2.COLOR_RGB2BGR)
         
         depth_buffer_tiny = np.reshape(self.image_info[3], [self.width, self.height])
         depth_tiny = self.far * self.near / (self.far - (self.far - self.near) * depth_buffer_tiny)
