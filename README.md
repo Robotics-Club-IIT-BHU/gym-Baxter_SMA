@@ -8,10 +8,9 @@ This environment is made by our team from **Robotics-Club** of IIT BHU to tackle
 
 Baxter was an industrial humanoid robot built by [Rethink Robotics](https://www.rethinkrobotics.com/). We used it in our environment to get a good idea of how the humanoid agent will behave when left in the same scenario as that of a human.For more info on baxter visit [this](https://www.ohio.edu/mechanical-faculty/williams/html/pdf/BaxterKinematics.pdf)
 <br>
-<p align = 'center'>
+<p>
 <img width="327" height="300" src="media/baxter.png">
 <img width="327" height="300" src="media/baxter_desc.png">
-<h4 align='center'><b>Baxter</b></h4>
 </p>
 
 ## Initial plannings
@@ -60,6 +59,7 @@ After importing the environment, there are different functions available in the 
     This will take list of actions and perform that action along with providing required information of states..
 - `env.moveVC()`<br>
     This will move the joints to a specified position by taking the index of that joint.
+<<<<<<< HEAD
 - `env.render()`<br>
     Function to render the eye view image of the environment.
 - `env.reset()`<br> 
@@ -74,10 +74,7 @@ There are other functions also which we have made four our purpose like
 <h2 align = 'center'>Snapshots</h2>
 <p align='center'>
 Few images and gifs of our environment and robot in action using some classical techniques.<br>
-</p>
-<p align = 'center'>
  <img width="360" src="media/baxter.gif">
- <img  height = 200, width="290" src="media/top-view.png">
 </p>
 
 ## References 
@@ -122,6 +119,31 @@ Few images and gifs of our environment and robot in action using some classical 
          <br />
          <sub>
             <b>Aditya Kumar</b>
+         </sub>
+      </a>
+      <br />
+   </td>
+</table>
+
+## **Our Mentors**
+
+<table>
+   <td align="center">
+      <a href="https://github.com/lok-i">
+         <img src="https://avatars1.githubusercontent.com/u/54435909?s=400&u=29af076049dab351b2e43621e9a433919bf50fb1&v=4" width="100px;" alt=""/>
+         <br />
+         <sub>
+            <b>Lokesh Krishna</b>
+         </sub>
+      </a>
+      <br />
+   </td>
+   <td align="center">
+      <a href="https://github.com/NiranthS">
+         <img src="https://avatars3.githubusercontent.com/u/44475481?s=400&v=4" width="100px;" alt=""/>
+         <br />
+         <sub>
+            <b>Niranth Sai</b>
          </sub>
       </a>
       <br />
