@@ -76,8 +76,8 @@ Some implementation related to these functions are available [here](examples/)
 <p align='center'>
 Few images and gifs of our environment and robot in action using some classical techniques.<br>
  <p float=left>
-     <img width="300" src="media/baxter.gif">
-     <img width="300" src="media/env-gif.gif">
+     <img width="400" height="300" src="media/baxter.gif">
+     <img width="400" height="300" src="media/env-gif.gif">
  </p>
  <p float=left>
     <img height="300" width="300" src="media/image_data.png">
