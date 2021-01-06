@@ -30,12 +30,12 @@ We made the required environment with aiming some basic works like simultaneous 
 ##  **Installation Guidelines**
 Anyone who want to conribute to this repo or want to modify it, will fork the repo and can create pull requests. One can also take this environment as a ready made setup for aiming the same challenges.
 ### Dependencies
-- Python3
-- PyBullet
+- python3
+- pybullet
 - gym
-- OpenCV
+- opencv
 - numpy
-- Matplotlib
+- matplotlib
 
 After cloning the repo run following commands to quickly done with the required setup
 
@@ -68,7 +68,7 @@ After importing the environment, there are different functions available in the 
 - `env.reset()`<br> 
     This will reset the whole environment and gives the information regarding the state.
 
-There are other functions also which we have made four our purpose like 
+There are other functions also which we have made for our purpose like 
 - `env.BeizerCurve()`<br> 
     This is an implementation of a family of curves which gives a trajectory passing through some points on the basis of some weights.
 - `env.getReward()`<br>
