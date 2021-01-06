@@ -79,8 +79,10 @@ Few images and gifs of our environment and robot in action using some classical 
      <img width="500" src="media/baxter.gif">
      <img width="500" src="media/env-gif.gif">
  </p>
- <img height="300" width="300" src="media/image_data.png">
- <img  height="300" width="300" src="media/depth_data.png"><br>
+ <p float=center>
+    <img height="300" width="300" src="media/image_data.png">
+    <img  height="300" width="300" src="media/depth_data.png"><br>
+ </p>
 <b>Image data with depth map</b><br>
 </p>
 
