@@ -11,6 +11,7 @@ Baxter was an industrial humanoid robot built by [Rethink Robotics](https://www.
 <p align = 'center'>
 <img width="327" height="300" src="media/baxter.png">
 <img width="327" height="300" src="media/baxter_desc.png">
+<h4 align = 'center'><b>Baxter</b></h4>
 </p>
 
 ## Initial plannings
