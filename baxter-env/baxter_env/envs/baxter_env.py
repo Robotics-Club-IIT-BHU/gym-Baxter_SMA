@@ -325,20 +325,6 @@ class BaxterEnv(gym.Env):
         state_dict = {"hand_ends": [hand1_pos, hand2_pos], "eye_view": img, "depth": depth} 
 
         return (state_dict, reward, self.done, {"episode_destroyed":episode_destroyed})
-
-    def encode(self, img, encoder):
-
-        '''
-        Function which uses the given model and image to generate latent vector of length 96
-        Arguments:
-        model : Encoder model
-        image = image of shape (64,64,3)
-
-        Return:
-        Vector of length 96
-        '''
-        w,h,c = img.shape
-        return encoder.predict(img.reshape(1, w, h, c))
     
     def BeizerCurve(self,weights):
         
