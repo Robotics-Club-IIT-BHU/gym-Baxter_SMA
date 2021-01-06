@@ -4,7 +4,7 @@
 This environment is made by our team from **Robotics-Club** of IIT BHU to tackle an open challenge in the field of robotics, which is *Simultaneous work*. Generally, Humans have a good efficiency in managing different things simultaneously using both hands. Hence, we want to explore how the <b>Reinforcement Learning</b> Algorithms are trying to achieve this task comparable to humans or even better. For this purpose **Baxter** humanoid robot is used as the Agent. It is a gym compatible environment made using simulator [PyBullet](https://pybullet.org/)<br>
 
 <h3 align=center> (SMA) Simultaneous Multitasking Agent</h3>
-<img width="900" height="500" src="media/env.png"><br>
+<img width="800" height="400" src="media/env.png"><br>
 
 Baxter was an industrial humanoid robot built by [Rethink Robotics](https://www.rethinkrobotics.com/). We used it in our environment to get a good idea of how the humanoid agent will behave when left in the same scenario as that of a human.For more info on baxter visit [this](https://www.ohio.edu/mechanical-faculty/williams/html/pdf/BaxterKinematics.pdf)
 <br>
@@ -76,12 +76,12 @@ Some implementation related to these functions are available [here](examples/)
 <p align='center'>
 Few images and gifs of our environment and robot in action using some classical techniques.<br>
  <p float=left>
-     <img width="420" height="250" src="media/baxter.gif">
-     <img width="420" height="250" src="media/env-gif.gif">
+     <img width="400" height="250" src="media/baxter.gif">
+     <img width="400" height="250" src="media/env-gif.gif">
  </p>
  <p float=left>
-    <img height="300" width="300" src="media/image_data.png">
-    <img  height="300" width="300" src="media/depth_data.png"><br>
+    <img height="250" width="250" src="media/image_data.png">
+    <img  height="250" width="250" src="media/depth_data.png"><br>
  </p>
 <b>Image data with depth map</b><br>
 </p>
