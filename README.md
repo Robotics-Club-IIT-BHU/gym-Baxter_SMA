@@ -5,7 +5,7 @@ This environment is made by our team from **Robotics-Club** of IIT BHU to tackle
 
 <h3 align=center> (SMA) Simultaneous Multitasking Agent</h3>
 <p align = 'center'>
-<img width="700" height="300" src="media/env.png"><br>
+<img width="700" height="400" src="media/env.png"><br>
 </p>
 
 Baxter was an industrial humanoid robot built by [Rethink Robotics](https://www.rethinkrobotics.com/). We used it in our environment to get a good idea of how the humanoid agent will behave when left in the same scenario as that of a human.For more info on baxter visit [this](https://www.ohio.edu/mechanical-faculty/williams/html/pdf/BaxterKinematics.pdf)
@@ -30,12 +30,12 @@ We made the required environment with aiming some basic works like simultaneous 
 ##  **Installation Guidelines**
 Anyone who want to conribute to this repo or want to modify it, will fork the repo and can create pull requests. One can also take this environment as a ready made setup for aiming the same challenges.
 ### Dependencies
-- Python3
-- PyBullet
+- python3
+- pybullet
 - gym
-- OpenCV
+- opencv
 - numpy
-- Matplotlib
+- matplotlib
 
 After cloning the repo run following commands to quickly done with the required setup
 
@@ -68,7 +68,7 @@ After importing the environment, there are different functions available in the 
 - `env.reset()`<br> 
     This will reset the whole environment and gives the information regarding the state.
 
-There are other functions also which we have made four our purpose like 
+There are other functions also which we have made for our purpose like 
 - `env.BeizerCurve()`<br> 
     This is an implementation of a family of curves which gives a trajectory passing through some points on the basis of some weights.
 - `env.getReward()`<br>
