@@ -1,7 +1,7 @@
 <h1 align=center> Baxter Environment </h1>
 <h3><b>About the environment</b></h3>
 
-This environment is made by our team from **Robotics-Club** of IIT BHU to tackle an open challenge in the field of robotics, which is *Simultaneous work*. Generally, Humans have a good efficiency in managing different things simultaneously using both hands. Hence, we want to explore how the <b>Reinforcement Learning</b> Algorithms are trying to achieve this task comparable to humans or even better. For this purpose **Baxter** humanoid robot is used as the Agent. It is a gym compatible environment made using simulator [PyBullet](https://pybullet.org/)<br>
+This environment is made by our team from **RoboReG** of Robotics Club,IIT BHU to tackle an open challenge in the field of robotics, which is *Simultaneous work*. Generally, Humans have a good efficiency in managing different things simultaneously using both hands. Hence, we want to explore how the <b>Reinforcement Learning</b> Algorithms are trying to achieve this task comparable to humans or even better. For this purpose **Baxter** humanoid robot is used as the Agent. It is a gym compatible environment made using simulator [PyBullet](https://pybullet.org/)<br>
 
 <h3 align=center> (SMA) Simultaneous Multitasking Agent</h3>
 <img width="800" height="400" src="media/env.png"><br>
